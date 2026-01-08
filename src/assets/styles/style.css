@@ -1,0 +1,147 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.container {
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 20px;
+}
+
+
+body {
+  margin: 0;
+}
+
+/* Header */
+.header {
+  width: 100%;
+  height: 64px;
+  padding: 0 24px;
+  background-color: #dad8d8;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+.menu-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+
+/* Logo */
+.header-logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Navigation */
+.header-nav {
+  display: flex;
+  gap: 20px;
+}
+
+.header-nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.header-nav a:hover {
+  text-decoration: underline;
+}
+
+/* Actions */
+.header-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.header-btn {
+  padding: 6px 14px;
+  background-color: #fff;
+  color: #1976d2;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.header-btn:hover {
+  background-color: #e3f2fd;
+}
+
+/* grid */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 20px;
+    padding: 20px 0;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.product-card {
+    width: 100%;
+    background-color: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    margin-top: 20px;
+}
+
+.product-card:hover {
+    transform: translate(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.product-imgage-images {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.product-content {
+  padding: 12px;
+}
+
+.product-title {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.product-price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #e53935;
+    margin-bottom: 10px;
+}
+
+.product-button {
+    width: 100%;
+    padding: 8px;
+    background-color: #1976d2;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.product-button:hover {
+    background-color: #125ea8;
+}
+
