@@ -45,8 +45,7 @@ export default function Products() {
     
 
     return (
-        <div className="container" style={{paddingLeft: 24, paddingRight: 24}}>
-            <h2>Onitensei Store</h2>
+        <div className="container" style={{paddingLeft: 10, paddingRight: 24}}>
             <ul style={{lineHeight:1.8}}>
                 <div className="product-grid">
                      {Products.map((item) =>
@@ -60,8 +59,8 @@ export default function Products() {
                         <div className="product-content">
                             <div className=".product-title">{item.title}</div>
                             <div className=".product-price ">${item.price}</div>
-                            <button className=".product-button">Add to card</button>
                         </div>
+                        <button className=".product-button">Add to card</button>
                     </div>
                 ))}
                 </div>
