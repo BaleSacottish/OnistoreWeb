@@ -25,6 +25,11 @@ function App() {
             <Products/>
           </div>
         } />
+        <Route path="/search/:searchQuery" element={
+          <div className='product-style-container'>
+            <Products/>
+          </div>
+        } />
         <Route path="/product/:productId" element={<ProductDetail/>} />
         <Route path="/cart" element={<Cart/>} />
       </Routes>
